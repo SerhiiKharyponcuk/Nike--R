@@ -9,20 +9,39 @@
   --shadow_light_color: #DCDCDC;
   --colorful: #8E32C6;
 }
+.body{
+ font-family: var(--font-family);
+   font-size: 14px;
+   letter-spacing: 0.03em;
+   font-weight: 700;
+   color:red;
+}
 
 .container {
   width: 1440px;
+  margin: 0 auto;
+  padding: 0 auto;
   background-color: var(--main_color);
   outline: 1px dashed red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* текст */
 
-.header-item{
+.header-link{
 font-family: var(--font-family);
 font-weight: 300;
 font-size: 24px;
 color: var(--shadow_light_color);
+}
+.span-link{
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 24px;
+color:var(--shadow_light_color);
 }
 
 .hero-logo{
@@ -132,3 +151,86 @@ font-weight: 400;
 font-size: 18px;
 color:var(--light_color);
 }
+
+/* розташування */
+
+
+.header-list{
+display: flex;
+gap: 20px;
+padding-left: 100px;
+}
+
+.flex {
+   justify-self: left;
+   margin: 105px 641px 183px 164px;
+}
+.wat-we-do-list{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.header-list{
+padding-top: 16px;
+padding-bottom: 14px;
+}
+.hero-link{
+padding-bottom: 288px;
+}
+.border{
+
+}
+.reviews-section{
+padding-bottom: 135px;
+}
+.order-section{
+padding-bottom: 84px;
+}
+.section-footer{
+padding-bottom: 50px;
+}
+
+/* псевдо-елементи */
+.hero-logo::before{
+width: 160px;
+height: 120px;
+display: flex;
+content: "";
+background-image: url(../image/hero-logo.png);
+}
+.wat-we-do-list{
+gap: 145px;
+
+}
+.wat-we-do-list :nth-child(1) ::before,
+.wat-we-do-list :nth-child(3) ::before{
+ width:240px;
+ height: 240px;
+ display: flex;
+ content: "";
+
+}
+.wat-we-do-list :nth-child(2) ::after{
+ width:240px;
+ height: 240px;
+ display: flex;
+ content: "";
+ background-image: url(../image/paints.svg);
+
+}
+.wat-we-do-list :nth-child(1) ::before{
+    background-image: url(../image/star.svg);
+}
+.wat-we-do-list :nth-child(3) ::before{
+    background-image: url(../image/truck.svg);
+}
+
+
+
+/* бордери */
+.border{
+    width: 1100px;
+    height: 396px;
+    border: 3px solid var(--colorful);
+}
+
