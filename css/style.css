@@ -73,6 +73,7 @@ font-weight: 400;
 font-size: 24px;
 color:var(--light_color);
 border-radius: 10px;
+background-color: var(--colorful);
 }
 .wat-we-do-item{
 font-family: var(--second-family);
@@ -124,11 +125,19 @@ font-weight: 400;
 font-size: 28px;
 color: var(--shadow_light_color);
 }
+.input-button{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 28px;
+color: var(--shadow_light_color);
+background-color: var(--light_color);
+}
 .order-link{
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 24px;
 color: var(--light_color);
+background-color: var(--colorful);
 }
 .footer-item{
 font-family: var(--font-family);
