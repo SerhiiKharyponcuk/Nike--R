@@ -20,7 +20,6 @@
 .container {
   width: 1440px;
   margin: 0 auto;
-  padding: 0 auto;
   background-color: var(--main_color);
   outline: 1px dashed red;
   display: flex;
@@ -170,24 +169,42 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 }
-.header-list{
-padding-top: 16px;
-padding-bottom: 14px;
-}
-.hero-link{
-padding-bottom: 288px;
-}
-.border{
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
-.reviews-section{
-padding-bottom: 135px;
+.hero{
+    padding-top: 94px;
+    padding-bottom: 184px;
+
 }
-.order-section{
-padding-bottom: 84px;
+.border{
+    padding-top: 40px;
+
 }
-.section-footer{
-padding-bottom: 50px;
+.wat-we-do{
+padding-top: 105px;
+padding-bottom: 105px;
+}
+
+.reviews{
+    padding-top: 25px;
+    padding-bottom: 114px;
+
+}
+.order{
+padding-top: 21px;
+padding-bottom: 37px;
+}
+.footer{
+    padding-top: 37px;
+    padding-bottom: 50px;
+
+}
+.reviews-list{
+display: flex;
+gap: 94px;
 }
 
 /* псевдо-елементи */
@@ -206,6 +223,7 @@ gap: 145px;
 .wat-we-do-list :nth-child(3) ::before{
  width:240px;
  height: 240px;
+ align-items: center;
  display: flex;
  content: "";
 
@@ -214,6 +232,7 @@ gap: 145px;
  width:240px;
  height: 240px;
  display: flex;
+ align-items: center;
  content: "";
  background-image: url(../image/paints.svg);
 
@@ -231,6 +250,10 @@ gap: 145px;
 .border{
     width: 1100px;
     height: 396px;
-    border: 3px solid var(--colorful);
+    border: 5px solid var(--colorful);
 }
-
+.reviews-item{
+    width: 255px;
+    height: 292px;
+    border: 1px solid red;
+}
