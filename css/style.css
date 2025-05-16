@@ -8,24 +8,30 @@
   --light_color: #FFFFFF;
   --shadow_light_color: #DCDCDC;
   --colorful: #8E32C6;
+  --dark_color: #021635;
+  --second_light_color: #9B9B9B;
+  --shadow_color: #8D8D8D;
+
+
 }
-.body{
- font-family: var(--font-family);
+/* загальні */
+body{
+   width: 1440px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: var(--font-family);
    font-size: 14px;
    letter-spacing: 0.03em;
    font-weight: 700;
-   color:red;
+   background-color: var(--main_color);
+   outline: 1px dashed red;
 }
 
 .container {
-  width: 1440px;
-  margin: 0 auto;
-  background-color: var(--main_color);
   outline: 1px dashed red;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* текст */
@@ -168,47 +174,58 @@ display: flex;
 gap: 20px;
 padding-left: 100px;
 }
-
-.flex {
-   justify-self: left;
-   margin: 105px 641px 183px 164px;
-}
 .wat-we-do-list{
 display: flex;
 flex-direction: row;
 justify-content: center;
 }
 .header{
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
-.hero{
-    padding-top: 94px;
-    padding-bottom: 184px;
+    padding-top: 14px;
+    padding-bottom: 16px;
 
 }
 .border{
-    padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
 .wat-we-do{
 padding-top: 105px;
 padding-bottom: 105px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .reviews{
     padding-top: 25px;
     padding-bottom: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.order{
-padding-top: 21px;
+.order-section{
+padding-top: 20px;
 padding-bottom: 37px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 20px;
+column-gap: 30px;
 }
-.footer{
-    padding-top: 37px;
+
+.section-footer{
+    padding-top: 45px;
     padding-bottom: 50px;
+    margin-left: 165px;
+    display: flex;
+    column-gap: 374px;
+    row-gap: 20px;
+    flex-wrap: wrap;
 
 }
 .reviews-list{
@@ -226,8 +243,23 @@ background-image: url(../image/hero-logo.png);
 }
 .wat-we-do-list{
 gap: 145px;
-
 }
+/* картинки */
+.hero-content{ 
+width: 1440px;
+height: 858px;
+display: flex;
+flex-direction: column;
+padding-top: 94px;
+padding-bottom: 184px;
+justify-content: left;
+background-image:url(../image/hero-background.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+outline: 1px solid red;
+}
+
 .wat-we-do-list :nth-child(1) ::before,
 .wat-we-do-list :nth-child(3) ::before{
  width:240px;
@@ -265,4 +297,9 @@ gap: 145px;
     width: 255px;
     height: 292px;
     border: 1px solid red;
+}
+.hero-link{
+width: 254px;
+height: 67px;
+background-color: var(--colorful);
 }

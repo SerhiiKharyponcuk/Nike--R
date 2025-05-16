@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wdth@75..100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header  class="header">
-        <section class="header">
+        <section class="header-section">
             <div class="container">
         <div class="logo">
             <ul class="header-list">
@@ -57,7 +57,7 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-            <div class="flex">
+            <div class="hero-content">
         <p class="hero-logo">
             С&R
         </p>
@@ -168,16 +168,16 @@
             <div class="container">
                 <div class="order-section">
             <h2 class="order-title">Order</h2>
-        <form class="form" action="submit" method="get">
+        <form class="form" action="#" method="get">
 
   <input class="input" type="email" id="email" name="email" placeholder="Write your email"  required>
-  <button class="input-button">Confirm </button><br>
+  <button type="submit" class="input-button">Confirm </button><br>
 
   <input class="input" type="text" id="country" name="country" placeholder="Your Country" required><br>
 
   <input class="input" type="text" id="city" name="city" placeholder="Your City" required><br>
 
-  <input class="input" type="text" id="address" name="address" placeholder="Your Adress" required><br>
+  <input class="input" type="text" id="address" name="address" placeholder="Your Address" required><br>
 
   </form>
   <a class="order-link" href="#">Order my Nike</a>
