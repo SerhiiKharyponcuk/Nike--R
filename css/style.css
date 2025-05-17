@@ -27,11 +27,11 @@ body{
    letter-spacing: 0.03em;
    font-weight: 700;
    background-color: var(--main_color);
-   /* outline: 1px dashed red; */
+   outline: 1px dashed red;
 }
 
 .container {
-  /* outline: 1px dashed red; */
+  outline: 1px dashed red;
 }
 
 /* текст */
@@ -53,8 +53,10 @@ font-family: var(--second-family);
 font-weight: 400;
 font-size: 72px;
 color: var(--light_color);
+
 }
 .hero-discription{
+    display: block;
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
@@ -414,7 +416,7 @@ background-color: var(--colorful);
 }
 /* фон */
 
-.hero-content{ 
+.hero{ 
 display: flex;
 flex-direction: column;
 padding-top: 94px;
