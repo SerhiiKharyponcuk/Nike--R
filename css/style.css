@@ -313,12 +313,16 @@ padding-bottom: 47px;
 padding-left: 13px;
 }
 .name{
+    display: flex;
     padding-bottom: 1px;
     padding-left: 49px;
+    
 }
 .name-discription{
+    display: flex;
     padding-bottom: 29px;
     padding-left: 49px;
+    
 }
 
 .order-form{
@@ -371,7 +375,6 @@ align-items: center;
 .wat-we-do-list :nth-child(3) ::before{
     background-image: url(../image/truck.svg);
 }
-
 
 
 
@@ -454,10 +457,11 @@ background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, 
 }
 .reviews{
     display: flex;
-    background-image: url(../image/second.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image:url(../image/flowers.png),
+     url(../image/second.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: left bottom, center;
+    background-size: auto ,cover;
 }
 .order{
     display: flex;
