@@ -367,28 +367,7 @@ align-items: center;
  content: "";
  background-repeat: no-repeat;
 }
-.line{
-    width: 240px;
-    height: 352px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-
-}
-
-.wat-we-do-item:nth-child(2) .line::before{
-    width: 1px;
-    height: 346px;
-    display: flex;
-    content: "";
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-    background-image: url(../image/line.svg);
-
-}
 .wat-we-do-item:nth-child(2) ::after{
  width:240px;
  height: 240px;
