@@ -24,7 +24,7 @@ body{
    align-items: center;
    font-family: var(--font-family);
    font-size: 14px;
-   letter-spacing: 0.03em;
+   letter-spacing: normal;
    font-weight: 700;
    background-color: var(--main_color);
    outline: 1px dashed red;
@@ -56,12 +56,12 @@ color: var(--light_color);
 
 }
 .hero-discription{
+    width: 508px;
     display: block;
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 18px;
 color: var(--light_color);
-text-align: left;
 }
 .hero-link{
 font-family: var(--font-family);
@@ -315,13 +315,11 @@ padding-left: 13px;
 .name{
     display: flex;
     padding-bottom: 1px;
-    padding-left: 49px;
     
 }
 .name-discription{
     display: flex;
     padding-bottom: 29px;
-    padding-left: 49px;
     
 }
 
@@ -331,6 +329,16 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 column-gap: 19px;
+}
+.member-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.foto{
+    margin-bottom: 29px;
+    margin-right: 5px;
+    margin-left: 13px;
 }
 /* псевдо-елементи */
 .hero-logo::before{
@@ -350,30 +358,51 @@ justify-content: space-between;
 align-items: center;
 }
 /* картинки */
-
-.wat-we-do-list :nth-child(1) ::before,
-.wat-we-do-list :nth-child(3) ::before{
+.wat-we-do-item:nth-child(1) ::before,
+.wat-we-do-item:nth-child(3) ::before{
  width:240px;
  height: 240px;
  align-items: center;
  display: flex;
  content: "";
+ background-repeat: no-repeat;
+}
+.line{
+    width: 240px;
+    height: 352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
-.wat-we-do-list :nth-child(2) ::after{
+
+.wat-we-do-item:nth-child(2) .line::before{
+    width: 1px;
+    height: 346px;
+    display: flex;
+    content: "";
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-image: url(../image/line.svg);
+
+}
+.wat-we-do-item:nth-child(2) ::after{
  width:240px;
  height: 240px;
  display: flex;
  align-items: center;
  content: "";
- background-image: url(../image/paints.svg);
+ background-image: url(../image/paints.png);
 
 }
-.wat-we-do-list :nth-child(1) ::before{
-    background-image: url(../image/star.svg);
+.wat-we-do-item:nth-child(1) ::before{
+    background-image: url(../image/star.png);
 }
-.wat-we-do-list :nth-child(3) ::before{
-    background-image: url(../image/truck.svg);
+.wat-we-do-item:nth-child(3) ::before{
+    background-image: url(../image/truck.png);
 }
 
 
