@@ -148,6 +148,7 @@ body {
     color: var(--shadow_light_color);
     border: none;
     border: 50px;
+    color: var(--colorful);
 }
 
 .block-input {
@@ -158,6 +159,7 @@ body {
     padding-right: 203px;
     border: none;
     border-radius: 50px;
+    color: var(--colorful);
 }
 
 .input-button {
@@ -486,7 +488,18 @@ li:active .language-link {
     align-items: center;
 }
 
-
+.hero-link:hover{
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+}
+.hero-link:active{
+    background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+}
+.order-link:hover{
+    background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+}
+.order-link:active{
+    background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%)
+}
 
 
              /* картинки */

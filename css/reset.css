@@ -31,3 +31,30 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.form-input:focus:valid {
+    background-color: rgba( 0, 155, 0, 0.2);
+    color: white;
+}
+.form-input:focus:invalid{
+    background-color: rgba(155, 0, 0, 0.3);
+    color: white;
+}
+.block-input:focus:valid {
+    background-color: rgba( 0, 155, 0, 0.5);
+    color: white;
+}
+.block-input:focus:invalid{
+    background-color: rgba(155, 0, 0, 0.5);
+    color: white;
+}
+.block-input{
+    border: none;
+    outline: none;
+}
+.form-input{
+    border: none;
+    outline: none;
+}
+
+
