@@ -34,7 +34,7 @@ body {
     font-family: var(--font-family);
     font-size: 14px;
     letter-spacing: normal;
-    font-weight: 700;
+    font-weight: 400px;
     background-color: var(--main_color);
 }
 
@@ -50,7 +50,6 @@ body {
 
 .hero-logo {
     font-family: var(--third-family);
-    font-weight: 400;
     font-size: 48px;
     color: var(--light_color);
 }
@@ -74,7 +73,6 @@ body {
     width: 508px;
     display: block;
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 18px;
     white-space: pre-line;
     color: var(--light_color);
@@ -83,7 +81,6 @@ body {
 
 .hero-link {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
     border-radius: 10px;
@@ -92,7 +89,6 @@ body {
 
 .wat-we-do-item {
     font-family: var(--second-family);
-    font-weight: 400;
     font-size: 36px;
     text-align: center;
     color: var(--light_color);
@@ -108,14 +104,12 @@ body {
 
 .reviews-discription {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
 }
 
 .date {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 14px;
     color: var(--shadow_light_color);
 }
@@ -129,7 +123,6 @@ body {
 
 .name-discription {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 12px;
     color: var(--shadow_light_color);
 }
@@ -143,7 +136,6 @@ body {
 
 .form-input {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 28px;
     color: var(--shadow_light_color);
     border: none;
@@ -153,7 +145,6 @@ body {
 
 .block-input {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 28px;
     color: var(--shadow_light_color);
     padding-right: 203px;
@@ -164,7 +155,6 @@ body {
 
 .input-button {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 28px;
     color: var(--shadow_color);
     background-color: var(--light_color);
@@ -174,7 +164,6 @@ body {
 
 .order-link {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
     background-color: var(--colorful);
@@ -182,14 +171,12 @@ body {
 
 .footer-item {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
 }
 
 .email-item {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
@@ -198,7 +185,6 @@ body {
 
 .info-item {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 18px;
     color: var(--light_color);
 }
@@ -220,7 +206,6 @@ body {
 .header-list li:first-child .header-link,
 li:last-child .language-link {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
 }
@@ -234,7 +219,6 @@ li:hover .language-link {
 .header-list li:active .header-link,
 li:active .language-link {
     font-family: var(--font-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
 
@@ -242,7 +226,6 @@ li:active .language-link {
 
 .footer-logo {
     font-family: var(--third-family);
-    font-weight: 400;
     font-size: 24px;
     color: var(--light_color);
 }
