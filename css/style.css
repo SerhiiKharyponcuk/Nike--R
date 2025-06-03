@@ -1,11 +1,10 @@
-:root {
-               /* шрифти */
+:root {   
+   /* шрифти */
 
     --font-family: "Roboto", sans-serif;
     --second-family: "Playfair Display", sans-serif;
     --third-family: "PT Serif", sans-serif;
-
-               /* кольори */
+    /* кольори */
 
     --main_color: #012D63;
     --light_color: #FFFFFF;
@@ -20,8 +19,7 @@
 
 
 
-
-          /* загальні */
+/* загальні */
 
 
 
@@ -43,8 +41,7 @@ body {
 }
 
 
-
-          /* текст */
+/* текст */
 
 
 
@@ -52,6 +49,7 @@ body {
     font-family: var(--third-family);
     font-size: 48px;
     color: var(--light_color);
+    padding-left: 50px;
 }
 
 .hero-title {
@@ -228,8 +226,7 @@ li:active .language-link {
 }
 
 
-
-            /* розташування */
+/* розташування */
 
 
 
@@ -444,8 +441,7 @@ li:active .language-link {
 }
 
 
-
-            /* псевдо-елементи */
+/* псевдо-елементи */
 
 
 
@@ -467,22 +463,20 @@ li:active .language-link {
     justify-content: space-between;
     align-items: center;
 }
-
-.hero-link:hover{
+.hero-link:hover {
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
 }
-.hero-link:active{
+.hero-link:active {
     background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
 }
-.order-link:hover{
+.order-link:hover {
     background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
 }
-.order-link:active{
+.order-link:active {
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%)
 }
 
-
-             /* картинки */
+/* картинки */
 
 
 
@@ -569,8 +563,7 @@ li:active .language-link {
 }
 
 
-
-            /* бордери */
+/* бордери */
 
 
 
@@ -618,8 +611,7 @@ li:active .language-link {
 }
 
 
-
-         /* фон */
+/* фон */
 
 
 
