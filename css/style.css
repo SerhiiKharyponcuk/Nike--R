@@ -26,6 +26,7 @@
 body {
     width: 1440px;
     margin: auto;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -465,6 +466,7 @@ li:active .language-link {
 }
 .hero-link:hover {
     background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+    
 }
 .hero-link:active {
     background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
@@ -616,6 +618,7 @@ li:active .language-link {
 
 
 .hero {
+    position: relative;
     display: flex;
     flex-direction: column;
     padding-top: 94px;
@@ -623,11 +626,43 @@ li:active .language-link {
     padding-left: 156px;
     padding-right: 644px;
     justify-content: left;
-    background-image: url(../image/hero-background.jpg);
+    background-image: url(../image/background-sneaker.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.snekers{
+    width: 880px;
+    position: absolute;
+    left: 650px;
+    bottom: 10px;
+    animation: around 5s linear infinite;
+    opacity: 1;
+    border-radius: 50%;
+    animation-play-state: running;
+}
+.snekers:hover{
+animation-play-state: paused;
+}
+ @keyframes around {
+  0% {
+    transform: rotate(0);
+  
+  }
+  25%{
+    transform: rotate(5deg);
+  }
+  50%{
+    transform: rotate(10deg);
+  }
+  75%{
+    transform: rotate(5deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+  }
+
 
 .footer {
     background-color: var(--dark_color);
